@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ambulanceInfo">
+    <children>
+        <ImageView fx:id="image2" fitHeight="500.0" fitWidth="750.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@rsz_white-concrete-wall.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="pic1" fitHeight="94.0" fitWidth="756.0" layoutX="-5.0" layoutY="-1.0" pickOnBounds="true">
+            <image>
+                <Image url="@bangsal-nam-9HMGyZJfrk8-unsplash.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="logo1" fitHeight="66.0" fitWidth="64.0" layoutX="25.0" layoutY="17.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@logo.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="team1" layoutX="198.0" layoutY="49.0" text="Powered By Team TrioBot" textFill="WHITE" AnchorPane.topAnchor="49.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="welcome" alignment="CENTER" contentDisplay="CENTER" layoutX="53.0" layoutY="15.0" prefHeight="44.0" prefWidth="345.0" text="Welcome to LinkMe " textAlignment="CENTER" textFill="#d47c7c" textOverrun="CENTER_ELLIPSIS">
+            <font>
+                <Font name="Calibri Bold Italic" size="30.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="pic2" fitHeight="500.0" fitWidth="750.0" layoutX="1.0" pickOnBounds="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@black-smooth-textured-paper-background.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="back" fitHeight="35.0" fitWidth="35.0" layoutX="14.0" layoutY="106.0" onMouseClicked="#back1" pickOnBounds="true">
+            <image>
+                <Image url="@left-arrow.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <AnchorPane layoutX="61.0" layoutY="151.0" prefHeight="70.0" prefWidth="650.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@vecteezy_hospital-building-for-healthcare-background-vector_.jpg" />
+                    </image>
+                </ImageView>
+                <Text layoutX="82.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ambulance Service Bangladesh" wrappingWidth="324.55157470703125">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <Text layoutX="82.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address: House: 15, Block: C, Dhaka 1212" wrappingWidth="296.916748046875" />
+            <Button id="chat" layoutX="550.0" layoutY="21.0" mnemonicParsing="false" onAction="#getAmbulance" prefHeight="27.0" prefWidth="99.0" stylesheets="@style.css" text="Get Ambulance">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Text layoutX="83.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rent: 50 Tk/km" wrappingWidth="296.916748046875" />
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="61.0" layoutY="235.0" prefHeight="70.0" prefWidth="650.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@vecteezy_hospital-building-for-healthcare-background-vector_.jpg" />
+                    </image>
+                </ImageView>
+            <Button id="chat" layoutX="550.0" layoutY="20.0" mnemonicParsing="false" onAction="#getAmbulance" stylesheets="@style.css" text="Get Ambulance">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="61.0" layoutY="320.0" prefHeight="70.0" prefWidth="650.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@vecteezy_hospital-building-for-healthcare-background-vector_.jpg" />
+                    </image>
+                </ImageView>
+            <Button id="chat" layoutX="550.0" layoutY="21.0" mnemonicParsing="false" onAction="#getAmbulance" stylesheets="@style.css" text="Get Ambulance">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Text layoutX="82.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="United Ambulance Service" wrappingWidth="324.55157470703125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="82.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address: 100 Feet, Madani Avenue, Dhaka 1212" wrappingWidth="296.916748046875" />
+            <Text layoutX="83.0" layoutY="-21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rent: 75 Tk/km" wrappingWidth="296.916748046875" />
+            <Text layoutX="82.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rent: 80 Tk/km" wrappingWidth="296.916748046875" />
+            <Text layoutX="82.0" layoutY="-61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Freezing Ambulance Service" wrappingWidth="324.55157470703125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="83.0" layoutY="-41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address: Gulshan Badda Link Road, Dhaka 1212" wrappingWidth="296.916748046875" />
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="61.0" layoutY="403.0" prefHeight="69.0" prefWidth="650.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@vecteezy_hospital-building-for-healthcare-background-vector_.jpg" />
+                    </image>
+                </ImageView>
+            <Button id="chat" layoutX="550.0" layoutY="21.0" mnemonicParsing="false" onAction="#getAmbulance" stylesheets="@style.css" text="Get Ambulance">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Text layoutX="85.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24/7 Ambulance" wrappingWidth="324.55157470703125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="86.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address: 51/A/1, Panthapath, Dhaka 1205" wrappingWidth="296.916748046875" />
+            <Text layoutX="86.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rent: 60 Tk/km" wrappingWidth="296.916748046875" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
