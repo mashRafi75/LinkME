@@ -10,9 +10,9 @@
 - **User-Friendly Interface:** Intuitive and easy-to-use interface powered by JavaFX.
 
 ## Team Members
-- **Md. Mosaddik Mashrafi Mousum**  mmousum221155@bscse.uiu.ac.bd
-- **Md. Mustafizur Rahman Emon**  mrahman221014@bscse.uiu.ac.bd
 - **Md. Sakhawat Hossain**  mhossain221240@bscse.uiu.ac.bd
+- **Md. Mustafizur Rahman Emon**  mrahman221014@bscse.uiu.ac.bd
+- **Md. Mosaddik Mashrafi Mousum**  mmousum221155@bscse.uiu.ac.bd
   
 For any inquiries or feedback, please contact with us.
 
