@@ -13,6 +13,7 @@
 - **Md. Sakhawat Hossain**  mhossain221240@bscse.uiu.ac.bd
 - **Md. Mustafizur Rahman Emon**  mrahman221014@bscse.uiu.ac.bd
 - **Md. Mosaddik Mashrafi Mousum**  mmousum221155@bscse.uiu.ac.bd
+  (Here My Contribution was on Project management Level. I contributed with ideaation, some hands on coding and delivery of the project)
   
 For any inquiries or feedback, please contact with us.
 
